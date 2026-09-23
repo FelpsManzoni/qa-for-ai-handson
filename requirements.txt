@@ -1,0 +1,10 @@
+# Core
+pandas>=2.0
+matplotlib>=3.7
+requests>=2.31
+python-dotenv>=1.0
+
+# Semantic-similarity signal (lightweight: ONNX runtime, no torch).
+# If this fails to install, the scorer automatically falls back to
+# token F1 + key-point coverage only — see docs/02_architecture.md.
+fastembed>=0.3
